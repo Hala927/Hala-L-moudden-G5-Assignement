@@ -515,3 +515,12 @@ L=[7,3,0,1,0,3,10]
 while 0 in L:
   L.remove (0)
 print (L)
+Def Union (A,B):
+    C=[]
+    for e in A :
+       if e not in C
+       C.append(e)
+    for e in B :
+       if e not in C:
+        C.append(e)
+    return C
