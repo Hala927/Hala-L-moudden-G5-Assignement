@@ -509,3 +509,9 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de m√
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
 3. [Union de listes](ex4.3)
+## Exercice avec correction
+#effacer les zeros et inserer [7, 3, 1, 3, 10]
+L=[7,3,0,1,0,3,10]
+while 0 in L:
+  L.remove (0)
+print (L)
